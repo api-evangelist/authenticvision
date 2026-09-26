@@ -1,23 +1,73 @@
 aid: authenticvision
+
 name: Authenticvision
-description: 'Authenticvision is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Authenticvision provides anti-counterfeiting and digital product passport solutions, helping brands protect products across industries such as automotive, healthcare, and finance. Their platform enables instant verification via smartphones, offers brand protection as a service, and supports circular economy initiatives through blockchain-backed product data.'
+
 url: https://raw.githubusercontent.com/api-evangelist/authenticvision/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- Anti-counterfeiting
+- Digital Product Passport
+- Blockchain
+- Brand Protection
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/authenticvision-llms.txt
+- type: Hosts
+  url: hosts/authenticvision-hosts.yml
+- type: Vendors
+  url: vendors/authenticvision-vendors.yml
+- type: SDKs
+  url: packages/authenticvision-packages.yml
+- type: Packages
+  url: packages/authenticvision-packages.yml
+- type: DeveloperPortal
+  url: https://portal.authenticvision.com/
+- type: Documentation
+  url: https://docs.authenticvision.com/
+- type: GitHubOrganization
+  url: https://github.com/authenticvision
+- type: DomainSecurity
+  url: security/authenticvision-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/authenticvision
+  url: https://www.authenticvision.com
+- type: About
+  url: https://www.authenticvision.com/about/
+- type: Blog
+  url: https://www.authenticvision.com/blog/
+- type: PrivacyPolicy
+  url: https://www.authenticvision.com/privacy-policy-html/
+- type: Imprint
+  url: https://www.authenticvision.com/imprint/
+- type: Support
+  url: https://www.authenticvision.com/contact/
+
+apis: []
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

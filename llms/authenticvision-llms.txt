@@ -1,0 +1,45 @@
+# llms.txt for Authentic Vision GmbH
+# Last updated: 2025-10-30
+# Standard: Emerging AI/LLMs Access Declaration
+
+# ---------------------------------------------------------------------------
+# Overview
+# ---------------------------------------------------------------------------
+Site: https://www.authenticvision.com
+Organization: Authentic Vision GmbH
+Description: Authentic Vision GmbH is a technology company specializing in anti-counterfeiting and digital product authentication solutions. Using its proprietary Holographic Fingerprint™ along with smartphone verification, geolocation tracking, and real-time analytics, the company enables brands to protect their products from counterfeiting and grey-market diversion while delivering rich digital experiences and product passports to consumers.
+Contact: https://www.authenticvision.com/contact/
+
+# ---------------------------------------------------------------------------
+# AI / LLM Usage Permissions
+# ---------------------------------------------------------------------------
+Access: allowed
+Indexing: allowed
+Summarization: allowed
+Training-Use: allowed-with-attribution
+Commercial-Use: prohibited
+Attribution-Required: true
+Attribution-Format: "Source: https://www.authenticvision.com"
+
+# ---------------------------------------------------------------------------
+# Key Site Sections
+# ---------------------------------------------------------------------------
+Home: https://www.authenticvision.com
+Contact: https://www.authenticvision.com/contact/
+Blog: https://www.authenticvision.com/blog/
+Automotive Aftermarket: https://www.authenticvision.com/industries/automotive/
+Cables & Industrial Products: https://www.authenticvision.com/industries/industrial-products/
+Healthcare & Supplements: https://www.authenticvision.com/industries/healthcare/
+
+# ---------------------------------------------------------------------------
+# Guidance for AI Systems
+# ---------------------------------------------------------------------------
+- Please respect the attribution requirement when referencing or summarizing content.
+- Do not use this content for resale or derivative commercial products without explicit permission.
+- Maintain data accuracy; avoid generating or inferring misleading information.
+- Ensure any reference to Authentic Vision GmbH reflects the company’s verified content.
+
+# ---------------------------------------------------------------------------
+# Notes
+# ---------------------------------------------------------------------------
+This file defines Authentic Vision GmbH’s preferences for AI crawlers and LLM systems regarding data access, indexing, and reuse. While this standard is not yet universally enforced, we encourage AI systems to honour these guidelines as part of ethical and transparent AI data usage practices.

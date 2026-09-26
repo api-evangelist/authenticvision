@@ -1,0 +1,88 @@
+generated: '2026-09-26'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/authenticvision
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (authenticvision.com,
+  security/authenticvision-domain-security.yml) or its accepted GitHub org (authenticvision).'
+packages:
+- name: util-go
+  registry: github
+  url: https://github.com/authenticvision/util-go
+  language: Go
+  official: true
+  version: null
+  published: '2026-09-22'
+  source_repo: https://github.com/authenticvision/util-go
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
+- name: gs1-go
+  registry: github
+  url: https://github.com/authenticvision/gs1-go
+  language: Go
+  official: true
+  version: null
+  published: '2026-09-19'
+  source_repo: https://github.com/authenticvision/gs1-go
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
+- name: attestation-go
+  registry: github
+  url: https://github.com/authenticvision/attestation-go
+  language: Go
+  official: true
+  version: null
+  published: '2026-09-07'
+  source_repo: https://github.com/authenticvision/attestation-go
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
+- name: mobile-sdk-ios
+  registry: github
+  url: https://github.com/authenticvision/mobile-sdk-ios
+  language: Swift
+  official: true
+  version: null
+  published: '2026-04-09'
+  source_repo: https://github.com/authenticvision/mobile-sdk-ios
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
+- name: attestation-java
+  registry: github
+  url: https://github.com/authenticvision/attestation-java
+  language: Java
+  official: true
+  version: null
+  published: '2025-12-02'
+  source_repo: https://github.com/authenticvision/attestation-java
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
+- name: attestation-js
+  registry: github
+  url: https://github.com/authenticvision/attestation-js
+  language: TypeScript
+  official: true
+  version: null
+  published: '2024-05-29'
+  source_repo: https://github.com/authenticvision/attestation-js
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
+- name: mobile-sdk-nativescript
+  registry: github
+  url: https://github.com/authenticvision/mobile-sdk-nativescript
+  language: TypeScript
+  official: true
+  version: null
+  published: '2023-12-14'
+  source_repo: https://github.com/authenticvision/mobile-sdk-nativescript
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
+- name: mobile-sdk-flutter
+  registry: github
+  url: https://github.com/authenticvision/mobile-sdk-flutter
+  language: Dart
+  official: true
+  version: null
+  published: '2023-12-10'
+  source_repo: https://github.com/authenticvision/mobile-sdk-flutter
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
+- name: libpaseto
+  registry: github
+  url: https://github.com/authenticvision/libpaseto
+  language: C
+  official: true
+  version: null
+  published: '2023-05-12'
+  source_repo: https://github.com/authenticvision/libpaseto
+  evidence: repository in github.com/authenticvision, whose profile names the provider's domain
